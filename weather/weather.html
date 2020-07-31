@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="weather.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+	</head>
+	<body>
+		<div id = "searchContainer">
+			<input class = "searchControl" id = "searchInput" type = "text" placeholder="Your city name">
+			<button class = "searchControl" id="searchBtn">Search</button>
+		</div>
+		<div id="weatherContainer">
+			<div id ="weatherDescription">
+				<h1 id="cityHeader"></h1>
+				<div id="weatherMain">
+					<div id="temperature"></div>
+					<div id="weatherDescriptionHeader"></div>
+					<div><image id="documentIcon"></div>
+				</div>
+				<hr>
+				<div id="windspeed" class="bottomDetails"></div>
+				<div id="humidity" class="bottomDetails"></div>
+			</div>		
+		</div>
+		<script src = "weather.js"></script>
+	</body>
+</html>
